@@ -1,38 +1,27 @@
-# Following along with the learning material to build a 
-# ticket machine for a roller coaster company
+# Love calculator
 
-print('Welcome to the rollercoaster!')
-feet = int(input('Enter your height in feet: '))
-inches = int(input('Enter the additional height in inches: '))
+print("The Love Calculator is calculating your score...")
+name1 = input('What is your name?') 
+name2 = input('What is their name?')
 
-# converting feet and inches to total height
-height = feet * 12 + inches
-min_height = 48
+combined_names = name1 + name2
+lower_names = combined_names.lower()
+t = lower_names.count("t")
+r = lower_names.count("r")
+u = lower_names.count("u")
+e = lower_names.count("e")
+first_digit = t + r + u + e
 
-# initializing the price for the ride
-bill = 0
+l = lower_names.count("l")
+o = lower_names.count("o")
+v = lower_names.count("v")
+e = lower_names.count("e")
+second_digit = l + o + v + e
 
-if height >= min_height:
-    print('You can ride the rollercoaster!')
-    age = int(input('What is your age?'))
-    if age < 12:
-        bill = 5
-        print('Please pay $5.')
-    elif age <= 17:
-        bill = 7
-        print('Please pay $7.')
-    elif 45 < age < 55:
-        bill = 0
-        print('Enjoy the ride, no charge.')
-    else:
-        bill = 12
-        print('Please pay $12.')
-    
-        
-    photo = input('Do you want a photo taken? Y or N.\n')
-    if photo == 'Y' or 'y':
-        bill += 3    
-    
-    print(f'Your bill will be ${bill}')
+score = int(str(first_digit) + str(second_digit))
+if (score < 10) or (score > 90):
+  print(f"Your score is {score}, you go together like coke and mentos.")
+elif (score >= 40) and (score <= 50):
+  print(f"Your score is {score}, you are alright together.")
 else:
-    print(f'Sorry, you are not tall enough({height}in). The minimum height is {min_height}in.')
+  print(f"Your score is {score}.")

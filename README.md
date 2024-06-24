@@ -29,7 +29,7 @@ The `main.py` files are the actual projects I completed. Any file named `sub-mai
 
 - **Day1:** Creating a simple name generator for bands, using basic python.
 - **Day2:** Creating a tip calculator, using basic python.
-- **Day3:** Creating a tip text-based adventure game, using basic python.
+- **Day3:** Creating a text-based adventure game, using basic python.
 
 ## Improvement
 
