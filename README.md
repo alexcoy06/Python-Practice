@@ -28,8 +28,9 @@ The following links are videos you can watch if my project piques your interest 
 The `main.py` files are the actual projects I completed. Any file named `sub-main.py` was either a coding exercise from [auditorium.ai](https://auditorium.ai/) or part of a lesson I was following that day on [replit.com](https://replit.com/). These instances of code were noteworthy.
 
 - **Day1:** Creating a simple name generator for bands, using basic python.
-- **Day2:** Creating a tip calculator, using basic python.
-- **Day3:** Creating a text-based adventure game, using basic python.
+- **Day2:** Using string manipulation to create a tip calculator.
+- **Day3:** Using my understanding of logical operators to create text-based adventure game.
+- **Day4:** Using my understanding for list to create a rock-paper-scissors game.
 
 ## Improvement
 
