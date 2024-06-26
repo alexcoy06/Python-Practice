@@ -8,7 +8,7 @@ Completing Dr. Angela Yu's "100 Days of Python" course is a transformative journ
 
 ```bash
 git clone https://github.com/yourusername/basic-python-practice.git
-cd basic-python-practice
+cd basic-python
 ```
 
 1. Open the project in VSCode:
@@ -31,6 +31,7 @@ The `main.py` files are the actual projects I completed. Any file named `sub-mai
 - **Day2:** Using string manipulation to create a tip calculator.
 - **Day3:** Using my understanding of logical operators to create text-based adventure game.
 - **Day4:** Using my understanding for list to create a rock-paper-scissors game.
+- **Day5:** Using my understanding of for loops to create a password generator.
 
 ## Improvement
 

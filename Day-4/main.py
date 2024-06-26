@@ -45,24 +45,17 @@ user_pick = user_choice.index(user)
 #picked = 2
 
 # Printing the user and computer choice
-print(choice[user_pick])
-print(choice[picked])
+print(f'You choose:\n{choice[user_pick]}')
+print(f'Your opponent Choose\n{choice[picked]}')
 
 # Setting the conditions for Win, Lose, and Draw
 if user_pick == picked:
     print('Draw')
-elif user_pick == 0:
-    if picked == 1:
-        print('You Lose')
-    else:
-        print('You Win')
-elif user_pick == 1:
-    if picked == 2:
-        print('You Lose')
-    else:
-        print('You Win')
+elif (user_pick == 0) & (picked == 1):
+    print('You Lose')
+elif (user_pick == 1) & (picked == 2):
+    print('You Lose')
+elif (user_pick == 2) & (picked == 0):
+    print('You Lose')
 else:
-    if picked == 0:
-        print('You Lose')
-    else:
-        print('You Win')
+    print('You Win')
