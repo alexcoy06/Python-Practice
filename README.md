@@ -32,6 +32,7 @@ The `main.py` files are the actual projects I completed. Any file named `sub-mai
 - **Day3:** Using my understanding of logical operators to create text-based adventure game.
 - **Day4:** Using my understanding for list to create a rock-paper-scissors game.
 - **Day5:** Using my understanding of for loops to create a password generator.
+- **Day6:** Completing a [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) with my understanding of while loops.
 
 ## Improvement
 
