@@ -27,12 +27,13 @@ The following links are videos you can watch if my project piques your interest 
 
 The `main.py` files are the actual projects I completed. Any file named `sub-main.py` was either a coding exercise from [auditorium.ai](https://auditorium.ai/) or part of a lesson I was following that day on [replit.com](https://replit.com/). These instances of code were noteworthy.
 
-- **Day1:** Creating a simple name generator for bands, using basic python.
-- **Day2:** Using string manipulation to create a tip calculator.
-- **Day3:** Using my understanding of logical operators to create text-based adventure game.
-- **Day4:** Using my understanding for list to create a rock-paper-scissors game.
-- **Day5:** Using my understanding of for loops to create a password generator.
-- **Day6:** Completing a [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) with my understanding of while loops.
+- **Day-1:** Creating a simple name generator for bands, using basic python.
+- **Day-2:** Using string manipulation to create a tip calculator.
+- **Day-3:** Using my understanding of logical operators to create text-based adventure game.
+- **Day-4:** Using my understanding for list to create a rock-paper-scissors game.
+- **Day-5:** Using my understanding of for loops to create a password generator.
+- **Day-6:** Completing a [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) with my understanding of while loops.
+- **Day-7:** Used all skills learned to create a hangman game.
 
 ## Improvement
 
