@@ -35,12 +35,11 @@ The `main.py` files are the actual projects I completed. Any file named `sub-mai
 - **Day-6:** Completing a [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) with my understanding of while loops.
 - **Day-7:** Used all skills learned to create a hangman game.
 - **Day-8:** Used all skills learned to create a Caesar Cipher.
+- **Day-9:** Used all skills learned to create a Secret Auction.
 
 ## Improvement
 
 Any and all improvements will be displayed here as new methods and insights are discovered.
-
-7/6/2024 - Going forward, only the major projects will be posted.
 
 ## Feedback
 
