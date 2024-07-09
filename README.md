@@ -4,18 +4,22 @@ Completing Dr. Angela Yu's "100 Days of Python" course is a transformative journ
 
 ## Setup
 
-1. Clone the Repository:
+Sure, here are the updated steps for cloning and setting up your repository:
 
-```bash
-git clone https://github.com/yourusername/basic-python-practice.git
-cd basic-python
-```
+1. **Clone the Repository:**
+   Open your terminal and run the following commands:
 
-1. Open the project in VSCode:
+   ```bash
+   git clone https://github.com/alexcoy06/Python-Development.git
+   cd Python-Development
+   ```
 
-```bash
-code .
-```
+2. **Open the Project in VSCode:**
+   After navigating to the project directory, you can open it in VSCode by running:
+
+   ```bash
+   code .
+   ```
 
 ### Deployment Resources
 
