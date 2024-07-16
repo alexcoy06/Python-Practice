@@ -10,8 +10,8 @@ Sure, here are the updated steps for cloning and setting up your repository:
    Open your terminal and run the following commands:
 
    ```bash
-   git clone https://github.com/alexcoy06/Python-Development.git
-   cd Python-Development
+   git clone https://github.com/alexcoy06/Python-Practice.git
+   cd Python-Practice
    ```
 
 2. **Open the Project in VSCode:**
@@ -31,15 +31,17 @@ The following links are videos you can watch if my project piques your interest 
 
 The `main.py` files are the actual projects I completed. Any file named `sub-main.py` was either a coding exercise from [auditorium.ai](https://auditorium.ai/) or part of a lesson I was following that day on [replit.com](https://replit.com/). These instances of code were noteworthy.
 
-- **Day-1:** Creating a simple name generator for bands, using basic python.
-- **Day-2:** Using string manipulation to create a tip calculator.
-- **Day-3:** Using my understanding of logical operators to create text-based adventure game.
-- **Day-4:** Using my understanding for list to create a rock-paper-scissors game.
-- **Day-5:** Using my understanding of for loops to create a password generator.
-- **Day-6:** Completing a [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) with my understanding of while loops.
-- **Day-7:** Used all skills learned to create a hangman game.
-- **Day-8:** Used all skills learned to create a Caesar Cipher.
-- **Day-9:** Used all skills learned to create a Secret Auction.
+- **Day-1:** Generator for bands, using basic python
+- **Day-2:** Tip calculator
+- **Day-3:** Text-based adventure game
+- **Day-4:** Rock-paper-scissors game
+- **Day-5:** Password generator
+- **Day-6:** Completing a [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+- **Day-7:** Hangman game
+- **Day-8:** Caesar Cipher
+- **Day-9:** Secret Auction
+- **Day-10:** Basic Calculator
+- **Day-11:** Blackjack
 
 ## Improvement
 
