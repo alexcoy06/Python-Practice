@@ -31,7 +31,7 @@ def blackJack():
     computer_hand = []
     gameIsActive = True
 
-    play = input("Would you like to play a game of BlackJack? Enter 'Y' or 'N':").lower()
+    play = input("Would you like to play a game of BlackJack? Enter 'Y' or 'N': ").lower()
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
     clear_screen()
@@ -59,7 +59,7 @@ def blackJack():
             gameIsActive = False
             
     while gameIsActive:
-        draw = input("If you want to draw another card, type 'Y'; otherwise, type 'N':").lower()
+        draw = input("If you want to draw another card, type 'Y'; otherwise, type 'N': ").lower()
         if draw == 'y':
             card_drawn = random.choice(cards)
             user_hand.append(card_drawn)
@@ -68,11 +68,14 @@ def blackJack():
             if current_score > 21:
                 gameIsActive = False
                 print('BUST!!! You Lose!')
+            elif current_score == 21:
+                gameIsActive = False
+                print('You Win!')
         elif draw == 'n':
             gameIsActive = False
             while calculate_score(computer_hand) < 17:
                 computer_hand.append(random.choice(cards))
-
+                
             user_score = calculate_score(user_hand)
             computer_score = calculate_score(computer_hand)
 
