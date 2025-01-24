@@ -8,7 +8,7 @@ logo = '''
  | \ | |               | |                / ____|                    
  |  \| |_   _ _ __ ___ | |__   ___ _ __  | |  __ _   _  ___  ___ ___ 
  | . ` | | | | '_ ` _ \| '_ \ / _ \ '__| | | |_ | | | |/ _ \/ __/ __|
- | |\  | |_| | | | | | | |_) |  __/ |    | |__| | |_| |  __/\__ \__ \
+ | |\  | |_| | | | | | | |_) |  __/ |    | |__| | |_| |  __/\__ \__ \ 
  |_| \_|\__,_|_| |_| |_|_.__/ \___|_|     \_____|\__,_|\___||___/___/
 '''
 
@@ -39,6 +39,7 @@ def blackJack():
   gameHard = 5
   gameEasy = 10
 
+  print(logo)
   start = input('Welcome to the Number Guessing Game! Feeling lucky? Type "y" for yes or "n" for no: ').lower()
 
   if start == 'n':
@@ -80,8 +81,11 @@ def blackJack():
       print(f'Nice try the number was {number}')
       
     if gameIsActive == False:
-      clear_screen
-      blackJack()
-
+      playAgain = input('Do you want to play again, yes \'y\' or no \'n\': ')
+      if playAgain == 'y':
+        blackJack()
+        clear_screen()
+  clear_screen()
 
 blackJack()
+print('Thanks for playing')

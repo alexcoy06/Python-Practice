@@ -42,10 +42,16 @@ The `main.py` files are the actual projects I completed. Any file named `sub-mai
 - **Day-9:** Secret Auction
 - **Day-10:** Basic Calculator
 - **Day-11:** Blackjack
+- **Day-12:** Number Guessing
+- **Day-13:** Error Handling Challenges completed / No Project
+- **Day-14:**  
 
 ## Improvement
 
 Any and all improvements will be displayed here as new methods and insights are discovered.
+
+07/18
+Start learning how to do flow charts to plan out my programs better, using [LucidChart](https://www.lucidchart.com/).
 
 ## Feedback
 
