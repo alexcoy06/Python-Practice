@@ -44,7 +44,7 @@ The `main.py` files are the actual projects I completed. Any file named `sub-mai
 - **Day-11:** Blackjack
 - **Day-12:** Number Guessing
 - **Day-13:** Error Handling Challenges completed / No Project
-- **Day-14:**  
+- **Day-14:**  Higher or Lower (Animal Edition)
 
 ## Improvement
 
